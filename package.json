@@ -1,0 +1,47 @@
+{
+  "name": "amigos",
+  "version": "1.0.0",
+  "description": "Project by Deepak and Kunal",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attainu/Social-Networking-App.git"
+  },
+  "keywords": [],
+  "author": "Kunal Boyal and Deepak Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/attainu/Social-Networking-App/issues"
+  },
+  "homepage": "https://github.com/attainu/Social-Networking-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.20.0",
+    "cookie-parser": "^1.4.5",
+    "datauri": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^25.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.5",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "razorpay": "^2.0.6",
+    "socket.io": "^2.3.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2"
+  }
+}
